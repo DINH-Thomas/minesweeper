@@ -11,7 +11,7 @@ from src.minesweeper import Minesweeper
 app = Flask(__name__)
 
 # Create a new game
-game = Minesweeper(20, 20, 12)
+game = Minesweeper(15, 15, 40)
 
 
 @app.route("/")
