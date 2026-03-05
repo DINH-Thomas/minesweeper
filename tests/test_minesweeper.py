@@ -49,3 +49,9 @@ def test_restart():
     game.restart()
     # TODO : Add assertions
     assert (game.rows == 3) & (game.cols == 3) & (game.num_mines == 2)
+
+    # tests/test_minesweeper.py
+
+
+def test_fail():
+    assert False
